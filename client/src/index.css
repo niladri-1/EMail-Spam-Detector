@@ -3119,7 +3119,7 @@ body {
 }
 
 .chat-bubble {
-	max-width: 78%;
+	max-width: 88%;
 	padding: 9px 13px;
 	border-radius: 14px;
 	font-family: 'DM Sans', sans-serif;
@@ -3133,6 +3133,9 @@ body {
 	color: #ddd6fe;
 	border: 1px solid rgba(139, 92, 246, 0.25);
 	border-bottom-right-radius: 4px;
+	text-align: left;
+	min-width: fit-content;
+	width: fit-content;
 }
 
 .chat-msg.bot .chat-bubble {
@@ -3334,7 +3337,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 3px;
-	max-width: 78%;
+	max-width: 88%;
 }
 
 /* Keep bot bubble width correct now inside wrap */
